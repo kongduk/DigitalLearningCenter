@@ -1,4 +1,3 @@
-// Content data for the digital banking guide videos
 export const contentData = [
   {
     id: '1',
@@ -29,8 +28,6 @@ export const contentData = [
     publisher: '디지털뱅킹센터'
   }
 ];
-
-// Feature cards data
 export const featureData = [
   {
     id: '1',

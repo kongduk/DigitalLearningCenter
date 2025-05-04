@@ -6,32 +6,34 @@ export const contentData = [
   {
     id: '1',
     title: '생활1. 온라인 쇼핑',
-    subtitle: '스마트하게 쇼핑하기',
-    imageUrl: 'ejal',
-    publisher: '디지털뱅킹센터'
+    imageUrl: 'https://i.ytimg.com/vi/BPzATjwSKwY/hqdefault.jpg', // 올바른 유튜브 썸네일 URL
+    publisher: '디지털배움터',
+    youtubeUrl: 'https://www.youtube.com/watch?v=BPzATjwSKwY'
   },
   {
     id: '2',
     title: '생활2. 뱅킹 서비스',
-    subtitle: '스마트하고 안전한 금융 거래',
-    imageUrl: 'ejal',
-    publisher: '디지털뱅킹센터'
+    imageUrl: 'https://i.ytimg.com/vi/CT7gbEPSiL4/hqdefault.jpg',
+    publisher: '디지털배움터',
+    youtubeUrl: 'https://www.youtube.com/watch?v=CT7gbEPSiL4'
   },
   {
     id: '3',
     title: '생활3. 행정 서비스',
-    subtitle: '스마트하게 행정서비스 이용하기',
-    imageUrl: 'ejal',
-    publisher: '디지털뱅킹센터'
+    imageUrl: 'https://i.ytimg.com/vi/ObdX3GlAOoU/hqdefault.jpg',
+    publisher: '디지털배움터',
+    youtubeUrl: 'https://www.youtube.com/watch?v=ObdX3GlAOoU&t=2s'
   },
   {
     id: '4',
     title: '생활4. 스마트폰 건강 관리',
-    subtitle: '똑똑하게 지키기',
-    imageUrl: 'ejal',
-    publisher: '디지털뱅킹센터'
+    imageUrl: 'https://i.ytimg.com/vi/Ak0EwAiYeBo/hqdefault.jpg', // 올바른 유튜브 썸네일 URL
+    publisher: '디지털배움터',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Ak0EwAiYeBo'
   }
 ];
+
+
 export const featureData = [
   {
     id: '1',

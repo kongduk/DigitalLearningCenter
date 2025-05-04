@@ -14,10 +14,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   description,
   icon,
   imageSrc,
-  className = ''
 }) => {
   return (
-    <div className={`${styles.card} ${className}`}>
+    <div className={styles.card}>
       <div className={styles.container}>
         <div className={styles.content}>
           <h2 className={styles.title}>{title}</h2>
@@ -26,9 +25,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
         <div className={styles.imageContainer}>
           {icon && <div className={styles.icon}>{icon}</div>}
           {imageSrc && (
-            <img 
-              src={imageSrc} 
-              alt={title} 
+            <img
+              src={imageSrc}
+              alt={title}
               className={styles.image}
             />
           )}

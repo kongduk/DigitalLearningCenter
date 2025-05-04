@@ -1,3 +1,7 @@
+import FeatureImage1 from '../assets/image1.png';
+import FeatureImage2 from '../assets/image2.png';
+
+
 export const contentData = [
   {
     id: '1',
@@ -33,12 +37,12 @@ export const featureData = [
     id: '1',
     title: '스마트 앱 체험관',
     description: '다양한 앱을 직접 체험해 보세요!',
-    imageUrl: 'ejal',
+    imageUrl: FeatureImage1,
   },
   {
     id: '2',
     title: '신한 SOL뱅크 사용방법',
     description: '알아두면 편리한 신한 SOL뱅크 사용방법을 미리 체험해 보세요!',
-    imageUrl: 'ejal',
+    imageUrl: FeatureImage2,
   }
 ];

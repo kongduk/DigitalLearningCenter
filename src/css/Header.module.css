@@ -62,22 +62,22 @@
 }
 
 .memberButton {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 9999px;
+  border-radius: 12px;
   background-color: #374151;
   color: white;
   padding: 0.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  border: none;
+  width: flex;
+  padding: 0.5em 1.5em;
+  height: flex;
   cursor: pointer;
   font-size: 0.875rem;
 }
 
 .signupLink {
-  display: none;
+  display: flex;
   font-size: 0.75rem;
   text-decoration: none;
   color: #374151;
@@ -88,7 +88,7 @@
 }
 
 .loginButton {
-  display: none;
+  display: flex;
   align-items: center;
   font-size: 0.75rem;
   border: 1px solid #e5e7eb;
@@ -102,30 +102,4 @@
 .loginButton:hover {
   border-color: #3b82f6;
   color: #3b82f6;
-}
-
-.menuButton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 9999px;
-  background-color: #3b82f6;
-  color: white;
-  padding: 0.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  border: none;
-  cursor: pointer;
-}
-
-@media (min-width: 768px) {
-  .memberButton,
-  .loginButton,
-  .signupLink {
-    display: flex;
-  }
-  
-  .menuButton {
-    display: none;
-  }
 }

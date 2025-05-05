@@ -1,10 +1,24 @@
-import React from 'react';
-import { Search, Menu } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Search } from 'lucide-react';
 import { Link } from '../components/Link';
 import Logo from './Logo';
 import styles from '../css/Header.module.css';
 
 const Header: React.FC = () => {
+  const [userId, setUserId] = useState<string | null>(null);
+  useEffect(() => {
+    const storedUserId = localStorage.getItem('userId');
+    if (storedUserId) {
+      setUserId(storedUserId);
+    }
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('userId');
+    setUserId(null);
+    window.location.href = '/';
+  };
+
   return (
     <header className={styles.header}>
       <div className="container">
@@ -27,21 +41,23 @@ const Header: React.FC = () => {
           </div>
 
           <div className={styles.actions}>
-            <button className={styles.memberButton}>
-              <span>회원</span>
-            </button>
-            
-            <Link href="#" className={styles.signupLink}>
-              회원가입
-            </Link>
-            
-            <button className={styles.loginButton}>
-              <span>로그인하기</span>
-            </button>
-            
-            <button className={styles.menuButton}>
-              <Menu size={20} />
-            </button>
+            {userId ? (
+              <>
+                <span className={styles.memberButton}>{userId}님</span>
+                <button className={styles.loginButton} onClick={handleLogout}>
+                  로그아웃
+                </button>
+              </>
+            ) : (
+              <>
+                <Link href="/signup" className={styles.signupLink}>
+                  회원가입
+                </Link>
+                <Link href="/login" className={styles.loginButton}>
+                  로그인하기
+                </Link>
+              </>
+            )}
           </div>
         </div>
       </div>

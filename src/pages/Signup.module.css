@@ -1,0 +1,80 @@
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.signupTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 2px solid black !important;
+    border-bottom: 2px solid black !important;
+    margin: auto;
+  }
+  
+  .signupTable th {
+    width: 180px;
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: top;
+    font-weight: bold;
+    border: 1px solid #efefef;
+    background-color: #F2F2F2;
+    vertical-align: middle;
+  }
+  
+  .signupTable td {
+    padding: 0.75rem;
+  }
+  
+  .signupTable th span {
+    color: red;
+  }
+  
+  .signupTable input[type="text"],
+  .signupTable input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+  }
+  
+  .signupTable .row {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .signupTable .row input {
+    flex: 1;
+  }
+  
+  .signupTable .row button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    background: #f3f4f6;
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+  
+  .signupTable .helperText {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 0.25rem;
+  }
+  
+  .genderRow {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+  }
+  

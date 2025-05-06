@@ -7,15 +7,16 @@
 #### 3. 영상 공유 기능 : 로그인을 했을 경우 유튜브 영상을 가져와 이미지와 영상을 공유할 수 있으며 그 영상을 시청할 수 있다.(로컬 스토리지 이용)
 
 ### 비로그인 main
-![alt text](<스크린샷 2025-05-06 오후 8.27.37.png>)
+<img width="1440" alt="스크린샷 2025-05-06 오후 8 27 37" src="https://github.com/user-attachments/assets/145399f5-5626-447d-a043-83ab86b154cc" />
 ### 로그인 main
-![alt text](<스크린샷 2025-05-06 오후 8.35.25.png>)
+<img width="1440" alt="스크린샷 2025-05-06 오후 8 29 05" src="https://github.com/user-attachments/assets/367b953c-ba35-4340-8e8d-fb8e2b60609d" />
 ### signup
-![alt text](<스크린샷 2025-05-06 오후 8.27.37-1.png>)
+<img width="1440" alt="스크린샷 2025-05-06 오후 8 27 45" src="https://github.com/user-attachments/assets/7cf2f7cf-2eca-4d0e-8a18-3562f5820c34" />
 ### login
-![alt text](<스크린샷 2025-05-06 오후 8.27.51.png>)
+<img width="1440" alt="스크린샷 2025-05-06 오후 8 27 51" src="https://github.com/user-attachments/assets/5523b692-8d9a-4967-94a0-b6fe63d2e2f9" />
 ### add content
-![alt text](<스크린샷 2025-05-06 오후 8.37.26.png>)
+<img width="1440" alt="스크린샷 2025-05-06 오후 8 37 26" src="https://github.com/user-attachments/assets/77d464df-6c3a-4c5a-bd54-bc0166d85342" />
+
 
 ## 프로젝트 제작 기간
 #### 2025-04-26 ~ 2025-05-06

@@ -43,8 +43,9 @@ const AddContentPage: React.FC = () => {
   };
 
   return (
+    <>
+    <Header />
     <div className={styles.page}>
-      <Header />
       <div className={styles.container}>
         <h2>영상 콘텐츠 추가</h2>
         <input
@@ -74,6 +75,7 @@ const AddContentPage: React.FC = () => {
         <button onClick={handleSubmit}>추가하기</button>
       </div>
     </div>
+    </>
   );
 };
 

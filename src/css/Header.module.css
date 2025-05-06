@@ -76,6 +76,11 @@
   font-size: 0.875rem;
 }
 
+.mainLink {
+  display: flex;
+  text-decoration: none;
+}
+
 .signupLink {
   display: flex;
   font-size: 0.75rem;

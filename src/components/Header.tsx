@@ -24,7 +24,9 @@ const Header: React.FC = () => {
       <div className="container">
         <div className={styles.headerContent}>
           <div className={styles.logoWrapper}>
-            <Logo />
+            <Link href="/" className={styles.mainLink}>
+              <Logo />
+            </Link>
           </div>
 
           <div className={styles.searchWrapper}>

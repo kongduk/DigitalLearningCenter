@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import FeatureCard from '../components/FeatureCard';
 import ContentCard from '../components/ContentCard';
 import { contentData, featureData } from '../data/contentData';
-import styles from './HomePage.module.css';
+import styles from './Homepage.module.css';
 
 const HomePage: React.FC = () => {
   const [userId, setUserId] = useState<string | null>(null);

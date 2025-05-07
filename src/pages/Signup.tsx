@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { memberData } from '../data/memberData';
-import styles from './SignUp.module.css';
+import styles from './Signup.module.css';
 import Header from '../components/Header';
 
 const SignUp: React.FC = () => {
